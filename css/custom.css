@@ -1,0 +1,207 @@
+#header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+#header .header--logo{
+    height: 40px;
+}
+#header .header--logo img{
+    height: 100%;
+}
+
+/* INICIO DA PERSONALIZAÇÃO DOS SLIDES */
+
+#slider .shadow--vertical{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 10%, transparent 90%);
+}
+#slider .shadow--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 15%, transparent 85%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+#slider .item--1,
+#slider .item--2,
+#slider .item--3{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+#slider .item--1{
+    background-image: url(../img/slides/slider1.jpg);
+}
+#slider .item--2{
+    background-image: url(../img/slides/slider2.jpg);
+}
+#slider .item--3{
+    background-image: url(../img/slides/slider3.jpg);
+}
+#slider .carousel-indicators{
+    margin-bottom: 100px;
+}
+
+/* INICIO DA PERSONALIZAÇÃO DAS DESCRIÇÕES DOS SLIDES */
+
+#slider .featured--name{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+#slider .featured--title{
+    font-size: 25px;
+    max-width: 40%;
+    color: #999;
+}
+
+/* INICIO DA PERSONALIZAÇÃO DA LISTAGEM */
+#list{
+    position: absolute;
+    margin-top: -100px;
+    width: 100%;
+    /*border: 5px solid red;*/
+}
+#list .list--title--next{
+    margin-top: 50px;
+}
+#list .list--wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+    /*border: 5px solid #f78b24;*/
+}
+#list .em--alta::-webkit-scrollbar,
+#list .recentes::-webkit-scrollbar,
+#list .recomendados::-webkit-scrollbar,
+#list .continue::-webkit-scrollbar{ 
+    display: none;
+}
+#list .em--alta,
+#list .recentes,
+#list .recomendados,
+#list .continue{
+    overflow-x: auto;
+    transition: all ease 0.5s;
+    /*border: 5px solid green;*/
+}
+#list .list--gallery{
+    display: flex;
+    flex-flow: row nowrap;
+}
+#list .list--gallery img{
+    width: 200px;
+    transform: scale(0.9);
+    transition: all ease 0.2s;
+}
+#list .list--gallery img:hover{
+    transform: scale(1);
+}
+#navigation .nav-next,
+#navigation .nav-before{
+    position: absolute;
+    width: 40px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99; /* Se colocar 999, fica em cima de tudo, inclusive o header*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; /* Para que não haja barra lateral desajustando o espaço da página*/
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+#navigation .nav-next{
+    right: 0;
+}
+#navigation .nav-before{
+    left: 0;
+}
+#list .list--wrapper:hover .nav-next,
+#list .list--wrapper:hover .nav-before{
+    opacity: 1;
+}
+
+/* INICIO DA PERSONALIZAÇÃO MARKETING PREMIUM */
+
+#background-premium .shadow--top{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 -1%, transparent 220%);
+}
+#background-premium .shadow--bottom{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to bottom, #111 1%, transparent 5%);
+}
+#background-premium .background-premium{
+    background-image: url(../img/fundo-projeto.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 1220px;
+}
+#premium-version{
+    margin-top: -580px;
+    text-align: center;
+}
+#premium-version h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+#premium-version p{
+    margin-top: 20px;
+    font-size: 25px;
+    color: #999;
+}
+#premium-version button{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 250px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #f78b24;
+    transition: all ease 0.3s;
+    margin-top: 20px;
+}
+#premium-version button:hover{
+    background-color: #fff;
+    color: #f78b24;
+}
+#premium-version .logo-market{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*ESTILIZAÇÃO DA BARRA DE ROLAGEM*/
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #111;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #555;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }

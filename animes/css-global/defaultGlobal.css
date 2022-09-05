@@ -1,0 +1,233 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+#header .header--logo{
+    height: 40px;
+}
+#header .header--logo img{
+    height: 100%;
+}
+
+/*INICIO BANNER*/
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#banner .shadow--vertical{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to top, #111 0,5%, transparent 10%);
+}
+#banner .shadow--horizontal{
+    width: inherit;
+    height: inherit;
+    background: linear-gradient(to right, #111 13%, transparent 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+#banner video{
+    position: absolute;
+    top: 0;
+    right: 0;   
+    height: 100%;
+    overflow: hidden;
+}
+
+/* INICIO DA PERSONALIZAÇÃO DAS INFORMAÇÕES */
+
+#banner .featured--name{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+#banner .featured--title{
+    font-size: 22px;
+    max-width: 40%;
+    color: rgb(216, 216, 216);
+    margin-top: 20px;
+}
+#banner .buttons{
+    display: flex;
+    align-items: center;
+}
+#banner button{
+    transition: all ease 0.3s;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+#banner button.play{
+    border: none;
+    color: #fff;
+    background-color: #f78b24;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#banner button.play:hover{
+    background-color: #fff;
+    color: #f78b24;
+}
+#banner button.plus{
+    border: 2px solid transparent;
+    color: #fff;
+    background-color: #999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: all ease 0.2s;
+}
+#banner button.plus:hover{
+    border: 2px solid #f78b24;
+    background-color: #666;
+    color: #fff;
+}
+#banner .infos--adicionais{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+}
+#banner .infos--adicionais p,
+#banner .infos--adicionais span,
+#banner .infos--adicionais img{
+    display: inline;
+    margin-right: 15px;
+    align-items: center;
+}
+/*INÍCIO DA PERSONALIZAÇÃO DOS CAPITULOS*/
+
+#chapters{
+    width: 100%;
+    margin-top: -50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chapters .link--ep a{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+}
+#chapters .dropdown-menu .active{
+    background-color: #f78b24;
+}
+
+/*INÍCIO DA PERSONALIZAÇÃO DOS EPISODIOS*/
+#episodios #temporada--1,
+#episodios #temporada--2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #111;
+}
+#episodios .midia{
+    width: 95%;
+    height:180px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    display: flex;
+    transition: all ease 0.2s;
+}
+#episodios .midia:hover{
+    background-color: rgb(50, 50, 50);
+    cursor: pointer;
+}
+#episodios .midia img{
+    border-radius: 15px;
+}
+#episodios .conteudo--midia{
+    padding: 15px;
+    display: flex;
+}
+#episodios .conteudo--midia p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+}
+#episodios .description p{
+    font-size: 16px;
+    color: #999;
+    padding: 0px 20px;
+    text-align: left;
+}
+#episodios button.reproduzir{
+    background: transparent;
+    border: none;
+    width: 75%;
+}
+#episodios .player{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease 0.2s;
+    border: 2px solid transparent;
+}
+#episodios .player:hover{
+    border: 2px solid #f78b24;
+    background-color: #666;
+    color: #fff;
+}
+#episodios .bi-play-fill{
+    font-size: 30px;
+    color: #fff;
+}
+
+/*ORGANIZAÇÃO DE DISPLAY PARA APRESENTAÇÃO DAS TEMPORADAS (JS)*/
+#episodios #temporada--2{
+    display: none;
+}
+
+
+/*ESTILIZAÇÃO DA BARRA DE ROLAGEM*/
+
+body::-webkit-scrollbar {
+    width: 10px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #111;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #555;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+  }

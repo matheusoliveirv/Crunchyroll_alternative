@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Project</title>
+    <link rel="shorcut icon" href="https://static.crunchyroll.com/cxweb/assets/img/favicons/favicon-96x96.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header--logo">
+            <a href="#">
+                <img src="img/logo-crunchyroll1.png" alt="Crunchyroll" />
+            </a>
+        </div>
+    </div>
+    <!--ABERTURA DOS SLIDERS-->
+    <div id="slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active item--1">
+                <div class="shadow--vertical">
+                    <div class="shadow--horizontal">
+                        <div class="featured--name">
+                            <p>Attack on Titan</p>
+                        </div>
+                        <div class="featured--title">
+                            <p>Segunda parte da nova temporada de Attack on Titan
+                                já está disponível em nosso catálogo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item item--2">
+                <div class="shadow--vertical">
+                    <div class="shadow--horizontal">
+                        <div class="featured--name">
+                            <p>Demon Slayer</p>
+                        </div>
+                        <div class="featured--title">
+                            <p>Temporada District Entertainment teve sua estréia
+                                com recorde de acessos na plataforma!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item item--3">
+                <div class="shadow--vertical">
+                    <div class="shadow--horizontal">
+                        <div class="featured--name">
+                            <p>Jujutsu Kaisen 0</p>
+                        </div>
+                        <div class="featured--title">
+                            <p>Filme de Jujutsu Kaisen 0 terá sua estréia em Setembro
+                                exclusivamente na Crunchyroll.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FECHAMENTO DOS SLIDERS-->
+
+    <!--INÍCIO DE LISTAGEM DOS ANIMES-->
+    <div id="list">
+        <div class="list--title">
+            <h3>Em Alta</h3>
+        </div>
+        <div class="list--wrapper">
+            <div id="navigation">
+                <div class="nav-next control" onclick="nextArrow()"><span class="material-symbols-outlined">navigate_next</span>
+                </div>
+                <div class="nav-before control" onclick="beforeArrow()"><span class="material-symbols-outlined">navigate_before</span></div>
+            </div>
+            <div class="topico em--alta">
+                <div class="list--gallery">
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire3/09211a5ab1a7a41cbd18c90b1c8f076b1641869179_full.jpg"
+                        title="Demon Slayer" class="itemGallery index"></a>
+                    <a href="animes/AOT/index.html"><img src="https://img1.ak.crunchyroll.com/i/spire3/dac363972d628a7009e04fdeb9d7104a1641869274_full.jpg"
+                        title="Attack on Titan" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire2/52edb7a843abacb4ff0f642c8eda14401325114125_full.jpg"
+                        title="Bleach" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire3/02c909684baa37d6ef70a9df742d58951610752067_full.jpg"
+                        title="Jujutsu Kaisen" class="itemGallery index" /></a>
+                    <a href="animes/hunterXhunter/index.html"><img src="https://img1.ak.crunchyroll.com/i/spire3/cbb55a6382682bf71e91f685c6473c5a1487736090_main.jpg"
+                        title="Hunter X Hunter" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire4/8056a82e973dde98ebb82abd39dc69731564519729_full.jpg"
+                        title="One Piece" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire3/501db6b69ced79e79a556b20cbdb9c5d1609784936_full.jpg"
+                        title="Black Clover" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire2/cccce22d1dfaaf713284a617ee0b539a1587756305_full.jpg"
+                        title="My Hero Academia" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire4/fabddf1040abbd18948b9aacc18011b31475523493_full.jpg"
+                        title="Fullmetal Alchemist" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire3/a2afe488cbf6448cda89eb8f87852aec1610654741_full.jpg"
+                        title="Dr. Stone" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire1/b8224973442b62a1b8ed8f23fb2b60591642666851_full.jpg"
+                        title="Boruto" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire1/e0c8a39fa014e57a95ef3682a4cc61d31483733959_full.jpg"
+                        title="Blue Exorcist" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire2/7bfd25202378b53c766c785afb2f13f71629162301_full.jpg"
+                        title="That Time I Got Reincarnated as a Slime" class="itemGallery index" /></a>
+                    <a href="#"><img src="https://img1.ak.crunchyroll.com/i/spire1/afda35f6a333439cd51102ba9acc9b371522786306_full.jpg"
+                        title="Tokyo Ghoul: Re" class="itemGallery index" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!--SEGUNDA LISTA-->
+
+        <div class="list--title">
+            <h3>Adicionados Recentemente</h3>
+        </div>
+        <div class="list--wrapper">
+            <div id="navigation">
+                <div class="nav-next control" onclick="nextArrow2()"><span class="material-symbols-outlined">navigate_next</span>
+                </div>
+                <div class="nav-before control" onclick="beforeArrow2()"><span class="material-symbols-outlined">navigate_before</span></div>
+            </div>
+            <div class="topico recentes">
+                <div class="list--gallery">
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/d8eed44e3d48097ab5fd36b6815fc18e.jpeg"
+                        title="One Punch Man" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/af5f2304138a2ebe9caf5b7d0b1e2f01.jpeg"
+                        title="Haikyu!!" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/837409ac43551c978dd2978d3a55f92a.jpeg"
+                        title="Yu-Gi-Oh!" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/70975a1227b453c1caf24fa05a93617d.jpeg"
+                        title="Tokyo Revengers" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/18638d44e180fd1b51870106b88e46e4.jpeg"
+                        title="Fairy Tail" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/697c8b5ff2f49a97348b5507c06e1183.jpeg"
+                        title="Death Note" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/98ea4207e23a2ea3e3af39ad641d8800.jpeg"
+                        title="Dragon Ball Super" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/69a132a8aa8264b2b696387d3207fae5.jpeg"
+                        title="Orient" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/46d202db44861a8ca50503879db03b19.jpeg"
+                        title="Lord Of Vermilion" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7c90619d5986db1a0ffd02b4fa516170.jpeg"
+                        title="The God of the High School" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/ef9743b89ffa1ce1e612be01cc05b0ae.jpeg"
+                        title="Food Wars" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/ac42d3d9367221716e0fe2bfb732138d.jpeg"
+                        title="Boruto: Naruto Next Generations" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/126dc528ec3515a591e5ddb3b2bf1fe9.jpeg"
+                        title="Shine On" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/72fa16314c61c06a021add57829e0585.jpeg"
+                        title="Gridman" class="itemGallery index" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!--TERCEIRA LISTAGEM-->
+
+        <div class="list--title">
+            <h3>Recomendados para você</h3>
+        </div>
+        <div class="list--wrapper">
+            <div id="navigation">
+                <div class="nav-next control" onclick="nextArrow3()"><span class="material-symbols-outlined">navigate_next</span>
+                </div>
+                <div class="nav-before control" onclick="beforeArrow3()"><span class="material-symbols-outlined">navigate_before</span></div>
+            </div>
+            <div class="topico recomendados">
+                <div class="list--gallery">
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/da1db9f24b365129646e8b4508858217.jpeg"
+                        title="Fire Force" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/c73bc7c503920b61c100eab128e70d5e.jpeg"
+                        title="Shield Hero 2" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/938ffd2c76c1d1b7082d1e47ce0352bf.jpeg"
+                        title="Yu-Gi-Oh! GX" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/72fa16314c61c06a021add57829e0585.jpeg"
+                        title="Gridman" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/59dd9785564f46c3cf2a18b38149f5a1.jpeg"
+                        title="OverLord" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/45f6d1eb2fe868c405d4e6e246191d45.jpeg"
+                        title="Vanguard Over Dress" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/8cf56e51a982975b0987534985fa67c7.jpeg"
+                        title="Goblin Slayer" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/8a59f7da231e4d5edae6955eb0fc2be4.jpeg"
+                        title="Death Parade" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/7c90619d5986db1a0ffd02b4fa516170.jpeg"
+                        title="The God of the High School" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/8532171bec0d05bfe45769a330fbab82.jpeg"
+                        title="Naruto" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/3b12cc384e3aa828211ca2afa28fb81b.jpeg"
+                        title="Science Fellin Love So I Tried To Prove It" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/5fa5d6b926c6477f6b801e8399b7fcbd.jpeg"
+                        title="Hakuoki" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/06b3979281876602d3279a8c70188d9a.jpeg"
+                        title="Trapped in a Dating Sim" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/6e94355c0f9b0e1fa47f24f4f3a9ba62.jpeg"
+                        title="Aharen-san Wa Hakarenai" class="itemGallery index" /></a>
+                </div>
+            </div>
+        </div>
+
+        <!--QUARTA LISTA-->
+
+        <div class="list--title">
+            <h3>Continue Assistindo</h3>
+        </div>
+        <div class="list--wrapper">
+            <div id="navigation">
+                <div class="nav-next control" onclick="nextArrow4()"><span class="material-symbols-outlined">navigate_next</span>
+                </div>
+                <div class="nav-before control" onclick="beforeArrow4()"><span class="material-symbols-outlined">navigate_before</span></div>
+            </div>
+            <div class="topico continue">
+                <div class="list--gallery">
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/2da12ed5b907017b6d52d4f867027012.jpeg"
+                        title="Yu-Gi-Oh! Zexal" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/bc32305b564fad77c2eb5e8884ba280c.jpeg"
+                        title="Sabiku Bisco" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/13d6e1ce564b2080bcc39f8ef1288690.jpeg"
+                        title="Sword Art Online" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/69a6173d531328e01c84e204e830a1ec.jpeg"
+                        title="Ace Attorney" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/859a10bd286ff82d4e389571962de71b.jpeg"
+                        title="Shadowverse Flame" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/edcb896701e1dbd5cc2ea3ecd7f7d646.jpeg"
+                        title="Kaze no Stigma" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/f1540a6b98f7b986993e7d2019a62512.jpeg"
+                        title="Ao Ashi" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/32d90e0628aeb20fcd2e8879188d6b70.jpeg"
+                        title="Spy x Family" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/48b9c687382510e7ae195f61fee65c61.jpeg"
+                        title="Love is War" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/291c6c3b60857afabe46899f848079a4.jpeg"
+                        title="Re:Zero" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/3487d0fff949e19e3e0b4922606fff39.jpeg"
+                        title="Yu-Gi-Oh! Arc V" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/4fadd5f113c28de1b22d4ef67a78890b.jpeg"
+                        title="Gin Tama" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/2423e59e70fab2f873cbe48c9dac0d21.jpeg"
+                        title="Jojo" class="itemGallery index" /></a>
+                    <a href=""><img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/240x360/catalog/crunchyroll/935ad8e1c044f1164c2af8e18042c2e6.jpg"
+                        title="Tower of God" class="itemGallery index" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FECHAMENTO DA LISTAGEM GERAL-->
+
+    <!--FOOTER-->
+    <div id="background-premium">
+        <div class="background-premium">
+            <div class="shadow--top">
+                <div class="shadow--bottom">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="premium-version">
+        <h1>Animes sem anúncios<br />
+            com Premium Plus<br />
+            por R$24,90 ao mês!</h1>
+        <p>Aproveite milhares de episódios legendados e exclusivamente dublados de animes<br /> selecionados,
+            além de filmes, e encontre sucessos, clássicos e as últimas novidades do Japão.</p>
+        <a href="#"><button href="#">Seja Premium</button></a>
+        <div class="logo-market">
+            <img src="img/logo-crunchyroll.png" width="200px" />
+        </div>
+    </div>
+    <script type="text/javascript" src="js/function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
