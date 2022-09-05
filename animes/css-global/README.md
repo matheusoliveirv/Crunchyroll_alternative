@@ -1,1 +1,0 @@
-Criação de uma interface alternativa para a plataforma Crunchyroll, onde explorei alguns elementos de outras interfaces de streaming. Em desenvolvimento.
