@@ -72,3 +72,14 @@ function beforeArrow4(){
         behavior: "smooth"
     });
 }
+
+//FUNÇÃO PARA TROCA DE TEMPORADA
+
+function season1(){
+    document.querySelector('#temporada--1').style.display='flex';
+    document.querySelector('#temporada--2').style.display='none';
+}
+function season2(){
+    document.querySelector('#temporada--2').style.display='flex';
+    document.querySelector('#temporada--1').style.display='none';
+}

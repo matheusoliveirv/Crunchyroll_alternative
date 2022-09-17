@@ -146,44 +146,41 @@
 /*INÍCIO DA PERSONALIZAÇÃO DOS EPISODIOS*/
 #episodios #temporada--1,
 #episodios #temporada--2{
+    padding: 20px;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 100%;
     background-color: #111;
 }
 #episodios .midia{
-    width: 95%;
-    height:180px;
-    background-color: rgb(32, 32, 32);
+    width: 320px;
+    height:auto;
     border-radius: 15px;
     margin-bottom: 10px;
     margin-top: 40px;
-    display: flex;
     transition: all ease 0.2s;
 }
 #episodios .midia:hover{
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(40, 40, 40);
     cursor: pointer;
 }
 #episodios .midia img{
+    width: 320px;
+    height: 180px;
     border-radius: 15px;
 }
-#episodios .conteudo--midia{
-    padding: 15px;
-    display: flex;
-}
 #episodios .conteudo--midia p{
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
     color: #fff;
-    text-align: center;
     margin-left: 10px;
+    margin-top: 10px;
 }
 #episodios .description p{
     font-size: 16px;
     color: #999;
-    padding: 0px 20px;
-    text-align: left;
+    margin-top: -15px;
 }
 #episodios button.reproduzir{
     background: transparent;
@@ -231,3 +228,4 @@ body::-webkit-scrollbar {
     background-color: #555;    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
   }
+

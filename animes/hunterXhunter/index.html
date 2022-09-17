@@ -60,15 +60,17 @@
                   Temporadas
                 </button>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item active" href="#">Temporada 1</a></li>
+                  <li><a onclick="season1()" class="dropdown-item active" href="#episodios">Temporada 1</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Temporada 2</a></li>
+                  <li><a onclick="season2()" class="dropdown-item" href="#episodios">Temporada 2</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Temporada 3</a></li>
+                  <li><a class="dropdown-item" href="#episodios">Temporada 3</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Temporada 4</a></li>
+                  <li><a class="dropdown-item" href="#episodios">Temporada 4</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Temporada 5</a></li>
+                  <li><a class="dropdown-item" href="#episodios">Temporada 5</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#episodios">Temporada 6</a></li>
                 </ul>
               </div>
         </div>
@@ -77,67 +79,127 @@
 
     <!--ABERTURA LISTAGEM DE EPISÓDIOS-->
     <div id="episodios">
+
+        <!--TEMPORADA 1-->
         <div id="temporada--1">
             <div class="midia">
                 <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/337eb80fe71c9e580908d08278e4e89d.jpeg" alt="">
-                <button class="reproduzir">
-                    <div class="conteudo--midia">
-                        <div class="player"><i class="bi bi-play-fill"></i></div>
-                        <p>E1 - Partida x e x Amigos</p>
+                <div class="conteudo--midia">
+                    <p>1. Partida x e x Amigos</p>
+                    <div class="description">
+                        <p>52 min</p>
                     </div>
-                       <div class="description">
-                        <p>O Gon, um jovem de doze anos, cumpre a promessa que fizera à Dona Mito, a mulher que o criou, 
-                            para assim receber a permissão de partir numa jornada para a Prova dos Caçadores e assim tornar-se 
-                            um como o seu pai. A caminho, num barco, rumo ao local da prova, ele se encontra com o Leorio e o 
-                            Kurapika, outros que desejam tornar-se caçadores... mas os três já começam aos trancos e barrancos...</p>
-                    </div>
-                </button>
+                </div>
             </div>
             <div class="midia">
                 <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/f89ea9d5b9d5a1d4c263f1cb57e9c601.jpeg" alt="">
-                <button class="reproduzir">
-                    <div class="conteudo--midia">
-                        <div class="player"><i class="bi bi-play-fill"></i></div>
-                        <p>E2 - O Teste x dos x Testes</p>
-                    </div>
+                <div class="conteudo--midia">
+                    <p>2. O Teste x dos x Testes</p>
                     <div class="description">
-                        <p>O Gon, o Leorio e o Kurapika chegam na cidade onde a prova acontecerá. Lá, eles seguem o conselho do capitão 
-                            e encaminham-se pelo atalho para a área da prova. No caminho, acabam passando por um subúrbio onde um grupo 
-                            e uma senhora os aguarda. Ela então lhes diz que, para continuarem, eles deverão passar pelo seu questionário 
-                            ou serão desqualificados.</p>
+                        <p>52 min</p>
                     </div>
-                </button>
+                </div>
             </div>
             <div class="midia">
                 <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/e4ccb5a62ebb8ccda1e2c113b785919a.jpeg" alt="">
-                <button class="reproduzir">
-                    <div class="conteudo--midia">
-                        <div class="player"><i class="bi bi-play-fill"></i></div>
-                        <p>E3 - Rivais x Por x Sobrevivência</p>
-                    </div>
+                <div class="conteudo--midia">
+                    <p>3. Rivais x Por x Sobrevivência</p>
                     <div class="description">
-                        <p>O Kiriko trouxe os nossos três heróis até a área da prova. Muitos aplicantes já se encontram no local. 
-                            Encontra-se até o veterano Tonpa, o arrepiante Hisoka e um ninja falastrão, o Hanzo, além de um jovem 
-                            com um skate. A primeira fase da prova está prestes a começar.</p>
+                        <p>52 min</p>
                     </div>
-                </button>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/987b531aaed516b8d043b127580cbd71.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>4. Esperança x E x Ambição</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
             </div>
             <div class="midia">
                 <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/d2ecd700adab356914e0b1115a79b21a.jpeg" alt="">
-                <button class="reproduzir">
-                    <div class="conteudo--midia">
-                        <div class="player"><i class="bi bi-play-fill"></i></div>
-                        <p>E4 - Esperança x E x Ambição</p>
-                    </div>
+                <div class="conteudo--midia">
+                    <p>5. Hisoka x O x Ardiloso</p>
                     <div class="description">
-                        <p>A primeira fase faz com que todos sigam o examinador Satotz até a segunda fase da prova. Em meio a isto, 
-                            um número de candidatos acaba desistindo do tedioso percurso que parece não ter fim à vista. O Leorio corre 
-                            junto do Kurapika e já fica sem fôlego, mas o seu desejo de tornar-se um caçador acaba falando mais alto.                       </p>
+                        <p>52 min</p>
                     </div>
-                </button>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/ee70e7ee65c4030224f476bc0e61a573.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>6. Um x Desafio x Surpresa</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
             </div>
         </div>
+        <!--FECHAMENTO DA TEMPORADA 1-->
+
+        <!--TEMPORADA 2-->
+        <div id="temporada--2">
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/c1a4f64a46087c2c1e7425cffe5548bf.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>27. A Chegada x Na x Arena</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/79cf72b53d6d093fd246760db7dbc7e0.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>28. Nen x e x Nen</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/adc699ac103c838d5f0368f36716dd4e.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>29. O Despertar x e x o Potencial</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/6a1ca673bdd1886ed226125da45edf24.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>30. Feroz x e x Furioso</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/e68274646a9aeefc3b9923e1452a5d0e.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>31. O Destino x e x a Obstinação</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+            <div class="midia">
+                <img src="https://beta.crunchyroll.com/imgsrv/display/thumbnail/320x180/catalog/crunchyroll/c32c05b7c4481722b2b74eb2dcbadcf9.jpeg" alt="">
+                <div class="conteudo--midia">
+                    <p>32. Uma x Vitória x Surpreendente</p>
+                    <div class="description">
+                        <p>52 min</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FECHAMENTO DA TEMPORADA 2-->
+
     </div>
+    <!--FECHAMENTO DA LISTAGEM DOS EPISÓDIOS-->
 
 
     <!--INCLUSÃO DE ARQUIVOS JS-->
