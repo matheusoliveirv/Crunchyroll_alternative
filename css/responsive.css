@@ -2,4 +2,8 @@
     #banner .featured--title{
         display: none;
     }
+    #episodios #temporada--1,
+    #episodios #temporada--2{
+        justify-content: center;
+    }
 }
