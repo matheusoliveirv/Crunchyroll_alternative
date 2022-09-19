@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #111 !important;
+}
 #header{
     position: fixed;
     z-index: 999;
