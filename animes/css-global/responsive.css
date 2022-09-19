@@ -1,6 +1,9 @@
 /*FORMATAÇÃO RESPONSIVA DA PAGINA DOS ANIMES*/
 
 @media (max-width: 679.99px){
+    #banner {
+        width: 100vw;
+    }
     #banner .featured--title,
     #banner .infos--adicionais{
         font-size: 15px;
@@ -8,6 +11,12 @@
     }
     #banner .featured--name img{
         height: 80px;
+    }
+    #banner video{
+        display: none;
+    }
+    #banner .banner--mobile{
+        display: flex;
     }
     #episodios #temporada--1,
     #episodios #temporada--2{
