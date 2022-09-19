@@ -1,0 +1,31 @@
+/*FORMATAÇÃO RESPONSIVA DA PAGINA DOS ANIMES*/
+
+@media (max-width: 679.99px){
+    #banner .featured--title,
+    #banner .infos--adicionais{
+        font-size: 15px;
+        max-width: 70%;
+    }
+    #banner .featured--name img{
+        height: 80px;
+    }
+    #episodios #temporada--1,
+    #episodios #temporada--2{
+        justify-content: center;
+    }
+}
+
+@media (min-width: 680px) and (max-width: 1245px){
+    #banner .featured--title,
+    #banner .infos--adicionais{
+        font-size: 18px;
+        max-width: 70%;
+    }
+    #banner .featured--name img{
+        height: 120px;
+    }
+    #episodios #temporada--1,
+    #episodios #temporada--2{
+        justify-content: space-between;
+    }
+}

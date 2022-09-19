@@ -1,7 +1,7 @@
 //Função de scroll no header
 
 function blackHeader(){
-    if(scrollY <= 80){
+    if(scrollY <= 10){
         document.querySelector('#header').style.background = 'transparent';
     } else{
         document.querySelector('#header').style.background = '#191919';

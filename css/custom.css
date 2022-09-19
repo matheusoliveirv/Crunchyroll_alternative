@@ -177,6 +177,7 @@
     text-transform: uppercase;
     width: 250px;
     height: 50px;
+    border: none;
     border-radius: 8px;
     background-color: #f78b24;
     transition: all ease 0.3s;
