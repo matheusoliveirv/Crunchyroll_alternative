@@ -1,6 +1,12 @@
 /*FORMATAÇÃO RESPONSIVA DA PAGINA PRINCIPAL*/
 
 @media (max-width: 679.99px){
+    /*SLIDER*/
+    #slider .item--1,
+    #slider .item--2,
+    #slider .item--3{
+        height: 99vh;
+    }
     #slider .featured--title{
         font-size: 16px;
         max-width: 70%;
@@ -8,15 +14,31 @@
     #slider .featured--name{
         font-size: 50px;
     }
+    /*LISTAGEM*/
+    #list h3{
+        font-size: 20px;
+    }
+    #list .list--gallery img{
+        width: 170px;
+    }
+    #navigation .nav-next,
+    #navigation .nav-before{
+        height: 255px;
+    }
+    /*FOOTER*/
     #premium-version h1{
         font-size: 40px;
     }
     #premium-version p{
         font-size: 17px;
     }
+    #background-premium .background-premium{
+        margin-top: 1020px;
+    }
 }
 
 @media (min-width: 680px) and (max-width: 1245px){
+    /*SLIDER*/
     #slider .featured--title{
         font-size: 18px;
         max-width: 70%;
@@ -24,6 +46,7 @@
     #banner .featured--name{
         font-size: 55px;
     }
+    /*FOOTER*/
     #premium-version h1{
         font-size: 45px;
     }

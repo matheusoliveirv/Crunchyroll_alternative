@@ -176,10 +176,13 @@ body{
     border-radius: 15px;
     margin-top: 40px;
     transition: all ease 0.2s;
+    transform: scale(0.95);
 }
 #episodios .midia:hover{
     background-color: rgb(40, 40, 40);
     cursor: pointer;
+    filter: grayscale(40%);
+    transform: scale(1);
 }
 #episodios .midia img{
     width: 100%;
