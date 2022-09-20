@@ -9,6 +9,14 @@
         font-size: 15px;
         max-width: 70%;
     }
+    #banner .featured--title{ /*CUSTOMIZAÇÃO DA QUANTIDADE DE LINHAS DA DESCRIÇÃO*/
+        font-size: 15px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* numero de linhas apresentadas */
+        -webkit-box-orient: vertical;
+    }
     #banner .featured--name img{
         height: 80px;
     }

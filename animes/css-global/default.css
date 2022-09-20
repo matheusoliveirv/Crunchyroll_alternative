@@ -166,18 +166,14 @@ body{
 /*INÍCIO DA PERSONALIZAÇÃO DOS EPISODIOS*/
 #episodios #temporada--1,
 #episodios #temporada--2{
-    padding: 20px;
+    padding: 20px 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
     background-color: #111;
 }
 #episodios .midia{
-    width: 320px;
-    height:auto;
+    padding-bottom: 5px;
     border-radius: 15px;
-    margin-bottom: 10px;
     margin-top: 40px;
     transition: all ease 0.2s;
 }
@@ -186,8 +182,7 @@ body{
     cursor: pointer;
 }
 #episodios .midia img{
-    width: 320px;
-    height: 180px;
+    width: 100%;
     border-radius: 15px;
 }
 #episodios .conteudo--midia p{
@@ -201,31 +196,6 @@ body{
     font-size: 16px;
     color: #999;
     margin-top: -15px;
-}
-#episodios button.reproduzir{
-    background: transparent;
-    border: none;
-    width: 75%;
-}
-#episodios .player{
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all ease 0.2s;
-    border: 2px solid transparent;
-}
-#episodios .player:hover{
-    border: 2px solid #f78b24;
-    background-color: #666;
-    color: #fff;
-}
-#episodios .bi-play-fill{
-    font-size: 30px;
-    color: #fff;
 }
 
 /*ORGANIZAÇÃO DE DISPLAY PARA APRESENTAÇÃO DAS TEMPORADAS (JS)*/
