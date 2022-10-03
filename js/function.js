@@ -16,7 +16,7 @@ const scrollList = document.querySelectorAll('.topico');
 function nextArrow(){
     scrollList[0].scrollTo({
         top: 0,
-        left: 1400,
+        left: 1600,
         behavior: "smooth"
     });
 }
@@ -31,7 +31,7 @@ function beforeArrow(){
 function nextArrow2(){
     scrollList[1].scrollTo({
         top: 0,
-        left: 1400,
+        left: 1600,
         behavior: "smooth"
     });
 }
@@ -46,7 +46,7 @@ function beforeArrow2(){
 function nextArrow3(){
     scrollList[2].scrollTo({
         top: 0,
-        left: 1400,
+        left: 1600,
         behavior: "smooth"
     });
 }
@@ -61,7 +61,7 @@ function beforeArrow3(){
 function nextArrow4(){
     scrollList[3].scrollTo({
         top: 0,
-        left: 1400,
+        left: 1600,
         behavior: "smooth"
     });
 }
