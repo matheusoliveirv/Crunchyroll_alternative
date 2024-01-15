@@ -11,7 +11,7 @@ As páginas referentes aos animes Demon Slayer, Attack on Titan, Jujutsu Kaisen 
 ## Tecnologias
 
 <div style="display: inline_block"><br>
-  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Javascript" height="40" width="40" src="https://cdn-icons-png.flaticon.com/512/8945/8945581.png">
+  <img align="center" alt="HTML" height="41" width="41" src="https://cdn-icons-png.flaticon.com/512/136/136528.png">
+  <img align="center" alt="CSS" height="41" width="41" src="https://cdn-icons-png.flaticon.com/512/136/136527.png">
+  <img align="center" alt="Javascript" height="41" width="41" src="https://cdn-icons-png.flaticon.com/512/136/136530.png">
 </div>
