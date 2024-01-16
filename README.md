@@ -1,6 +1,5 @@
 <h1>
-    <a href="https://www.dio.me/">
-     <img align="center" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Crunchyroll_Logo.png/669px-Crunchyroll_Logo.png?20200804211958"></a>
+     <img align="center" width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Crunchyroll_Logo.png/669px-Crunchyroll_Logo.png?20200804211958">
     <span>Interface alternativa da plataforma Crunchyroll</span>
 </h1>
 
